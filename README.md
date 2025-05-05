@@ -15,14 +15,17 @@ Make sure you have:
 - POSIX headers (`arpa/inet.h`, `unistd.h`, etc.)
 
 Install essentials on Ubuntu:
+
 sudo apt update
+
 sudo apt install build-essential
 
 Build Instructions
 
 From the root directory:
-run:
-make
+to clean, run : make clean
+
+to build, run : make
 
 # Run Instructions
 form the root folder(or wherever the build is place)
